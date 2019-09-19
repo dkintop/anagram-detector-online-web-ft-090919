@@ -6,7 +6,9 @@ class Anagram
     @word = word
     
     
-    
+    def anagram(word_array)
+      
+    end
     
   end 
   
