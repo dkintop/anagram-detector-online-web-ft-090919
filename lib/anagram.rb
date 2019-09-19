@@ -1,3 +1,4 @@
+require 'pry'
 class Anagram
   attr_accessor :word
   
@@ -7,7 +8,13 @@ class Anagram
     
     
     def anagram(word_array)
+      #use .select
       
+      word_array.select do |the_word|
+        
+        the_word.split("")
+        binding.pry
+      end 
     end
     
   end 
