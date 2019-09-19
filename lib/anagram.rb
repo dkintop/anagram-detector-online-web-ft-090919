@@ -9,7 +9,7 @@ class Anagram
     
     def anagram(word_array)
       #use .select
-      
+      binding.pry
       word_array.select do |the_word|
          
         the_word.split("").sort == @word.split("").sort
