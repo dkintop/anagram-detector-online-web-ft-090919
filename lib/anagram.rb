@@ -13,7 +13,7 @@ class Anagram
       word_array.select do |the_word|
         
         the_word.split("").sort == @word.split("").sort
-        
+        binding.pry
       end 
     end
     
