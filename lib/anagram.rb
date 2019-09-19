@@ -8,7 +8,7 @@ class Anagram
     
   end 
   
-  def anagram(word_array)
+  def match(word_array)
       #use .select
       binding.pry
       word_array.select do |the_word|
